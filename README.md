@@ -18,7 +18,7 @@ pip install pipenv
 pipenv install --dev
 ```
 
-Para conferir qualidade do código:
+Para conferir qualidade de código:
 
 ```console
 pipenv run flake8
