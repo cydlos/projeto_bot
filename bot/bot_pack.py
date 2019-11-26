@@ -12,7 +12,7 @@ class Bot_pack:
 if __name__ == "__main__":
     # Não existe a função __init__, é preciso inicializar com Bot_pack()
     testando = Bot_pack().bot()
-    if "inter" in testando:
-        print("oi")
+    if "Brasil" in testando:
+        print("br")
     else:
         print(testando)
