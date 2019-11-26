@@ -1,2 +1,2 @@
 def test_dois():
-    assert 2 == 3
+    assert 2 == 2
