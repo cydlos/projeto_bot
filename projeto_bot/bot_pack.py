@@ -1,7 +1,7 @@
 class Bot_pack:
     def bot(self):
         lista = []
-        arquivo = "bot.txt"
+        arquivo = "projeto_bot.txt"
         with open(arquivo) as obj:
             conteudos = obj.readlines()
         for x in conteudos:

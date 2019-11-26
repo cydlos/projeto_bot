@@ -103,7 +103,7 @@ def find_package_data(
 
 PACKAGE = "projeto_bot"
 NAME = PACKAGE
-DESCRIPTION = "Protótipo de bot para redes sociais para fins educativos e de entretenimento."
+DESCRIPTION = "Protótipo de projeto_bot para redes sociais para fins educativos e de entretenimento."
 AUTHOR = "Cydne Losekann"
 AUTHOR_EMAIL = "losekann.c@gmail.com"
 URL = "."
