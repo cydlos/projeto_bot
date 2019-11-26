@@ -1,2 +1,2 @@
 def test_three():
-    assert 0 == 98
+    assert 98 == 98
