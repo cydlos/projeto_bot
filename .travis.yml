@@ -2,9 +2,10 @@ language: python
 version:
   -3.8.0
 install:
-  - pip install -r requirements-dev.txt codecov
+  - pip install -q -r requirements-dev.txt
+  - pip install codecov
 script:
   - flake8
-  - pytest --cov=projeto_bot
+  - pytest projeto_bot --cov=projeto_bot
 after_success:
   - codecov
